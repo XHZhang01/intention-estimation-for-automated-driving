@@ -1,4 +1,4 @@
-% Framework for Belief Fusion
+% Framework for Belief Fusion (Multi-Source Information Fusion, Conflict Detection and Handling and Belief Distribution Update)
 % Xuhui Zhang, 16.06.2022
 
 function [belief_mass_development] = belief_fusion_framework (belief_mass_cell)

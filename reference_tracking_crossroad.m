@@ -3,6 +3,16 @@
 
 function [u_ideal, u_real, xi_ref, xi, xi_measured] = reference_tracking_crossroad (xi_ini, x_ref, vx_ref, y_ref, vy_ref, std_dev_input, std_dev_sensor)
 
+% interpretation of inputs
+% xi_ini: initial states [x0, vx0, y0, vy0].
+% x_ref, vx_ref, y_ref, vy_ref: reference states of each trajetory for tracking.
+% interpretation of inputs
+% u_ideal: ideal input without input noise.
+% u_real: real input with input noise.
+% xi_ref: reference state of each trajectory.
+% xi: ideal state (tracking result of LQR) of each trajectory without sensor noise.
+% xi_measured: measured state with sensor noise.
+
 % get the number of references
 num_ref = size(x_ref, 1);
 % get the number of time instants

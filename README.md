@@ -6,7 +6,7 @@ The crossroad scenario is simulated with this framework.
 
 More details can be found in XuhuiZhang_FP_Report.pdf.
 
-Usages of other functions are explained with comments, which can be found in the codes.
+Important functions are exlpained below. Usages of other functions are explained with comments, which can be found in corresponding codes.
 
 ## Important functions are listed below
 

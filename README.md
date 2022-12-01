@@ -3,7 +3,10 @@
 
 These codes build a framework for estimation of other traffic participants' behaviors based on belief function theory.
 The crossroad scenario is simulated with this framework.
+
 More details can be found in XuhuiZhang_FP_Report.pdf.
+
+Usages of other functions are explained with comments, which can be found in the codes.
 
 ## Important functions are listed below
 
@@ -44,5 +47,3 @@ This function transfers part of all belief masses to the uncertainty in the fuse
 
 ## 12. weighted_belief_fusion.m:
 This function updates the belief from previous instant with the fused opinion at the current instant with WBF.
-
-## Usages of other functions are explained with comments, which can be found in the codes.

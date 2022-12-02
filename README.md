@@ -1,8 +1,8 @@
 
 # Intention Estimation for Automated Drving
 
-These codes build a framework for estimation of other traffic participants' behaviors based on belief function theory.
-The crossroad scenario is simulated with this framework.
+These codes build a framework for estimation of traffic participants' behaviors based on belief function theory.
+The intersection scenario is simulated with this framework.
 
 More details can be found in XuhuiZhang_FP_Report.pdf.
 
